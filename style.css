@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+body {
+    background-color: #E0E0E0;
+}
+/*Header*/
+.headerCotainer {
+    border-bottom: 5px solid black;
+    box-shadow: 0px 5px 15px;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    transition-duration: 1s;
+}
+.headerCotainer:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.headerItem {
+    display: flex;
+    align-items: center;
+}
+.headerLogo {
+    width: 60px;
+}
+.headerCotainer h1 {
+    font-family: arial;
+}
+
+/*Foteer*/
+.footerContainer {
+    color: #ffffff;
+    background-color: #000000;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerContainer h3 {
+    font-family: arial;
+}
